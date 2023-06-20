@@ -189,8 +189,11 @@ footer{
         font-size:35px;
     }
     h2{
-        font-size:20px;
+        font-size:40px;
 
+    }
+    p{
+        font-size:30px;
     }
     .about--content{
         margin:15px;
