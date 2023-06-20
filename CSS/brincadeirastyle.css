@@ -1,0 +1,116 @@
+body{
+    font-family:arial black;
+    background-color:rgb(250, 228, 232);
+    margin:0px;
+
+}
+Header .container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+a{
+    text-decoration-line:none;
+}
+
+.logo{
+    font-family:Alkatra;
+    font-size:50px;
+    margin-top:40px;
+    margin-bottom:35px;
+}
+.menu{
+    display:flex;
+    margin:30px;
+
+}
+
+.menu div{
+    margin-right:40px;
+}
+
+
+.menu a{
+    text-decoration-line:none;
+    color:black;
+}
+
+.menu:hover a:hover{
+    color:aqua;
+}
+
+.menu .active a{
+    color:aqua;
+}
+h2{
+    text-transform:uppercase;
+    font-family:arial black;
+    font-size:25px;
+    font-weight:400;
+    margin-top:50px;
+}
+p{
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:50px;
+    line-height:30px;  
+    font-size:16px;
+    font-family:arial;
+    font-weight:400;
+}
+
+
+article{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.brincadeiras--title{
+    background-color:#252525;
+    color:rgb(250, 228, 232);
+    font-size:50px;
+    margin-top:25px;
+    padding-left:30px;
+    padding-right:30px;
+}
+video, .video--content{
+    text-align:center;
+    border:2px solid #252525;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.video{
+    max-width:800px;
+    display:flex;
+    margin-top:60px;
+
+    
+}
+
+.rodape{
+    margin-top:40px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    background-color:rgb(223, 169, 178);
+    height:100px;
+}
+
+.rights{
+    font-size:10px;
+    color:rgb(71, 68, 68);
+    
+
+}
+.container .rights{
+    justify-content:flex-start;
+}
