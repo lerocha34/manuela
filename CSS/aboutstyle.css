@@ -111,3 +111,105 @@ footer{
 .container .rights{
     justify-content:flex-start;
 }
+
+@media(min-width:1025px){
+    .menu{
+        font-size:40px;
+    }
+    .banner-in, .banner-in-diferente{
+        font-size:40px;
+    }
+    .banner-botao{
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size:30px;
+        font-weight:bold;
+    }
+    .about--title{
+        font-size:70px;
+
+    }
+    h2{
+        font-size:60px;
+
+    }
+    p{
+        font-size:35px;
+        line-height:45px;
+    }
+}
+@media(max-width:1024px){
+    .menu{
+        font-size:40px;
+    }
+    .banner-in, .banner-in-diferente{
+        font-size:40px;
+    }
+    .banner-botao{
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size:30px;
+        font-weight:bold;
+    }
+    .about--title{
+        font-size:70px;
+
+    }
+    h2{
+        font-size:60px;
+
+    }
+    p{
+        font-size:35px;
+        line-height:45px;
+    }
+}
+@media (max-width:768px){
+        
+    .menu{
+        font-size: 30px;
+    }
+    .banner-in, .banner-in-diferente{
+        font-size:40px;
+    }
+    .banner-botao{
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size:30px;
+        font-weight:bold;
+    }
+}
+@media (max-width:435px){
+    .menu{
+        display:grid;
+        grid-template-columns:repeat(2, 2fr);
+        font-size:25px;
+    }
+    .about--title{
+        font-size:35px;
+    }
+    h2{
+        font-size:20px;
+
+    }
+    .about--content{
+        margin:15px;
+    }
+}
+@media (max-width:320px){
+    .menu{
+        display:grid;
+        grid-template-columns:repeat(2, 2fr);
+        font-size:15px;
+    }
+    .about--title{
+        font-size:20px;
+    }
+    h2{
+        font-size:20px;
+
+    }
+    p{
+        font-size:12px;
+    }
+}
