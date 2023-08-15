@@ -151,10 +151,15 @@ article .foto{
 .container .rights{
     justify-content:flex-start;
 }
-@media(min-width:1025px){
+
+@media (max-width:1023px){
+
     .menu{
-        font-size:25px;
+        display:none;
     }
+}
+@media(min-width:1025px){
+ 
     .banner-in, .banner-in-diferente{
         font-size:30px;
     }
@@ -167,9 +172,7 @@ article .foto{
 }
 @media (min-width:793px) and (max-width:1024px){
     
-    .menu{
-        font-size: 35px;
-    }
+
     .banner-in, .banner-in-diferente{
         font-size:40px;
     }
@@ -181,9 +184,7 @@ article .foto{
     }
 }
 @media (min-width:426px) and (max-width:792px){
-    .menu{
-        font-size:30px;
-    }
+
     .banner-in, .banner-in-diferente{
         font-size:40px;
     }
@@ -203,11 +204,7 @@ article .foto{
 }
 
 @media(min-width:376px) and (max-width:425px){
-    .menu{
-        display:grid;
-        grid-template-columns:repeat(2, 2fr);
-        font-size:25px;
-    }
+
 
     .banner-in, .banner-in-diferente{
         font-size:30px;
@@ -222,11 +219,7 @@ article .foto{
 }
 
 @media (max-width:375px){
-    .menu{
-        display:grid;
-        grid-template-columns:repeat(2, 2fr);
-        font-size:25px;
-    }
+
 
     .banner-in, .banner-in-diferente{
         font-size:30px;
@@ -240,7 +233,5 @@ article .foto{
     }
 }
 @media (max-width:360px){
-    .menu{
-        font-size:20px;
-    }
+
 }
