@@ -49,6 +49,43 @@ a{
 
 }
 
+.menu-mobile{
+    display:flex;
+    flex-direction:column;
+    width: 30px;
+    align-self:flex-start;
+    margin-left:10px;
+
+}
+
+.menu-mobile-click{
+    height:5px;
+    width:100%;
+    background-color:rgb(247, 131, 152);
+    margin:2px;
+}
+
+#menu-desliza{
+    position:fixed;
+    top:0;
+    left:-250px;
+    width:200px;
+    height:100%;
+    background-color:rgb(247, 131, 152);
+    color:#000;
+    transition: left 0.1s ease-in-out;
+}
+
+#menu-desliza ul{
+    list-style:none;
+    padding:0;
+}
+
+#menu-desliza ul li{
+    padding:10px;
+    border-bottom: 1px solid rgb(250 228 232);
+}
+
 .menu div{
     margin-right:40px;
 }
@@ -112,12 +149,18 @@ footer{
     justify-content:flex-start;
 }
 
-@media(min-width:1025px){
+@media (max-width:1023px){
+
     .menu{
-        font-size:25px;
+        display:none;
+    }
+}
+@media(min-width:1024px){
+    .menu{
+        font-size:30px;
     }
     .banner-in, .banner-in-diferente{
-        font-size:40px;
+        font-size:30px;
     }
     .banner-botao{
         padding-left: 40px;
@@ -125,50 +168,10 @@ footer{
         font-size:30px;
         font-weight:bold;
     }
-    .about--title{
-        font-size:70px;
-
-    }
-    h2{
-        font-size:60px;
-
-    }
-    p{
-        font-size:35px;
-        line-height:45px;
-    }
 }
-@media(max-width:1024px){
-    .menu{
-        font-size:40px;
-    }
-    .banner-in, .banner-in-diferente{
-        font-size:40px;
-    }
-    .banner-botao{
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size:30px;
-        font-weight:bold;
-    }
-    .about--title{
-        font-size:70px;
+@media (min-width:793px) and (max-width:1024px){
+    
 
-    }
-    h2{
-        font-size:60px;
-
-    }
-    p{
-        font-size:35px;
-        line-height:45px;
-    }
-}
-@media (max-width:768px){
-        
-    .menu{
-        font-size: 30px;
-    }
     .banner-in, .banner-in-diferente{
         font-size:40px;
     }
@@ -179,40 +182,55 @@ footer{
         font-weight:bold;
     }
 }
-@media (max-width:435px){
-    .menu{
+@media (min-width:426px) and (max-width:792px){
+
+    .banner-in, .banner-in-diferente{
+        font-size:40px;
+    }
+    .banner-botao{
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size:30px;
+        font-weight:bold;
+    }
+    article .container{
         display:grid;
-        grid-template-columns:repeat(2, 2fr);
-        font-size:25px;
+        grid-template-columns:repeat(1 1fr);
     }
-    .about--title{
-        font-size:35px;
-    }
-    h2{
-        font-size:40px;
-
-    }
-    p{
+    .foto-descricao{
         font-size:30px;
     }
-    .about--content{
-        margin:15px;
-    }
 }
-@media (max-width:320px){
-    .menu{
+
+@media(min-width:376px) and (max-width:425px){
+
+
+    .banner-in, .banner-in-diferente{
+        font-size:30px;
+    }
+    article .container{
         display:grid;
-        grid-template-columns:repeat(2, 2fr);
+        grid-template-columns:repeat(1 1fr);
+    }
+    .rights{
         font-size:15px;
     }
-    .about--title{
-        font-size:20px;
-    }
-    h2{
-        font-size:20px;
+}
 
+@media (max-width:375px){
+
+
+    .banner-in, .banner-in-diferente{
+        font-size:30px;
     }
-    p{
-        font-size:12px;
+    article .container{
+        display:grid;
+        grid-template-columns:repeat(1 1fr);
     }
+    .rights{
+        font-size:15px;
+    }
+}
+@media (max-width:360px){
+
 }
