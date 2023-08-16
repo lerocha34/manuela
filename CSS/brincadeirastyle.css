@@ -25,6 +25,7 @@ a{
 .menu{
     display:flex;
     margin:30px;
+    font-size:30px;
 
 }
 
@@ -155,85 +156,71 @@ main{
 
     .menu{
         display:none;
+       
     }
 }
-
-@media(min-width:1024px){
+@media (min-width:1024px){
+    .menu-mobile{
+        display:none;
+    }
     .menu{
+        font-size:35px;
+    }
+
+    .video--content h2{
         font-size:30px;
     }
-    .banner-in, .banner-in-diferente{
-        font-size:30px;
-    }
-    .banner-botao{
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size:30px;
-        font-weight:bold;
+
+    .video--content p{
+        font-size:25px;
+        margin-top:-20px;
     }
 }
-@media (min-width:793px) and (max-width:1024px){
-    
 
-    .banner-in, .banner-in-diferente{
+@media (min-width: 768px){
+    main{
+        margin-left:10px;
+        margin-right:10px;
+    }
+
+    .video--content h2{
+        font-size:30px;
+    }
+
+    .video--content p{
+        font-size:25px;
+        margin-top:-20px;
+    }
+}
+
+@media (max-width:425px){
+    .video{
+        flex-direction:column;
+        margin-left:5px;
+        margin-right:5px;
+    }
+
+    video{
+        width:100%
+    }
+
+    .video--content h2{
+        font-size:30px;
+    }
+
+    .video--content p{
+        font-size:25px;
+        margin-top:-20px;
+    }
+}
+
+@media(max-width: 375px){
+    .brincadeiras--title{
+        width:90%;
+    }
+}
+@media(max-width: 320px){
+    .brincadeiras--title{
         font-size:40px;
     }
-    .banner-botao{
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size:30px;
-        font-weight:bold;
-    }
-}
-@media (min-width:426px) and (max-width:792px){
-
-    .banner-in, .banner-in-diferente{
-        font-size:40px;
-    }
-    .banner-botao{
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size:30px;
-        font-weight:bold;
-    }
-    article .container{
-        display:grid;
-        grid-template-columns:repeat(1 1fr);
-    }
-    .foto-descricao{
-        font-size:30px;
-    }
-}
-
-@media(min-width:376px) and (max-width:425px){
-
-
-    .banner-in, .banner-in-diferente{
-        font-size:30px;
-    }
-    article .container{
-        display:grid;
-        grid-template-columns:repeat(1 1fr);
-    }
-    .rights{
-        font-size:15px;
-    }
-}
-
-@media (max-width:375px){
-
-
-    .banner-in, .banner-in-diferente{
-        font-size:30px;
-    }
-    article .container{
-        display:grid;
-        grid-template-columns:repeat(1 1fr);
-    }
-    .rights{
-        font-size:15px;
-    }
-}
-@media (max-width:360px){
-
 }

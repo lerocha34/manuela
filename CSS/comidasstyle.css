@@ -25,9 +25,9 @@ a{
 .menu{
     display:flex;
     margin:30px;
+    font-size:30px;
 
 }
-
 .menu-mobile{
     display:flex;
     flex-direction:column;
@@ -36,6 +36,7 @@ a{
     margin-left:10px;
 
 }
+
 
 .menu-mobile-click{
     height:5px;
@@ -142,82 +143,42 @@ main img:hover{
         display:none;
     }
 }
-@media(min-width:1024px){
-    .menu{
-        font-size:30px;
-    }
-    .banner-in, .banner-in-diferente{
-        font-size:30px;
-    }
-    .banner-botao{
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size:30px;
-        font-weight:bold;
-    }
-}
-@media (min-width:793px) and (max-width:1024px){
-    
-
-    .banner-in, .banner-in-diferente{
-        font-size:40px;
-    }
-    .banner-botao{
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size:30px;
-        font-weight:bold;
-    }
-}
-@media (min-width:426px) and (max-width:792px){
-
-    .banner-in, .banner-in-diferente{
-        font-size:40px;
-    }
-    .banner-botao{
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size:30px;
-        font-weight:bold;
-    }
-    article .container{
-        display:grid;
-        grid-template-columns:repeat(1 1fr);
-    }
-    .foto-descricao{
-        font-size:30px;
+@media (min-width:1024px){
+    .menu-mobile{
+        display:none;
     }
 }
 
-@media(min-width:376px) and (max-width:425px){
-
-
-    .banner-in, .banner-in-diferente{
-        font-size:30px;
-    }
-    article .container{
-        display:grid;
-        grid-template-columns:repeat(1 1fr);
-    }
-    .rights{
-        font-size:15px;
+@media (max-width: 374px){
+    main{
+        grid-template-columns:repeat(1, 1fr);
+        margin-left:-10px;
     }
 }
 
-@media (max-width:375px){
-
-
-    .banner-in, .banner-in-diferente{
-        font-size:30px;
-    }
-    article .container{
-        display:grid;
-        grid-template-columns:repeat(1 1fr);
-    }
-    .rights{
-        font-size:15px;
+@media (max-width: 424px){
+    main{
+        grid-template-columns:repeat(1, 1fr);
+        margin-left:15px;
     }
 }
-@media (max-width:360px){
+@media (max-width: 424px){
+    main{
+        grid-template-columns:repeat(1, 1fr);
+        margin-left:15px;
+    }
+}
 
+@media (max-width: 767px){
+    main{
+        grid-template-columns:repeat(1, 1fr);
+        margin-left:40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    main{
+        grid-template-columns:repeat(2, 1fr);
+        margin-left:40px;
+    }
 }

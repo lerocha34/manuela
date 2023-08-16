@@ -46,6 +46,7 @@ a{
 .menu{
     display:flex;
     margin:30px;
+    font-size:30px;
 
 }
 
@@ -57,6 +58,7 @@ a{
     margin-left:10px;
 
 }
+
 
 .menu-mobile-click{
     height:5px;
@@ -155,82 +157,43 @@ footer{
         display:none;
     }
 }
+
 @media(min-width:1024px){
-    .menu{
-        font-size:30px;
-    }
-    .banner-in, .banner-in-diferente{
-        font-size:30px;
-    }
-    .banner-botao{
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size:30px;
-        font-weight:bold;
+    .menu-mobile{
+        display:none;
     }
 }
-@media (min-width:793px) and (max-width:1024px){
-    
 
-    .banner-in, .banner-in-diferente{
-        font-size:40px;
-    }
-    .banner-botao{
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size:30px;
-        font-weight:bold;
-    }
-}
-@media (min-width:426px) and (max-width:792px){
+@media(max-width:375px){
 
-    .banner-in, .banner-in-diferente{
-        font-size:40px;
+    .logo{
+        font-size:45px;
     }
-    .banner-botao{
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size:30px;
-        font-weight:bold;
+
+    .about--title{
+        font-size:25px;
+        margin-top:20px;
     }
-    article .container{
-        display:grid;
-        grid-template-columns:repeat(1 1fr);
-    }
-    .foto-descricao{
+
+    .about--content{
+        margin:15px;
         font-size:30px;
     }
 }
 
-@media(min-width:376px) and (max-width:425px){
+@media(min-width:376px)and(max-width:1024px){
+    .logo{
+        font-size:50px;
+        margin: -10px;
+    }
 
+    .about--title{
+        font-size:35px;
+        margin-top:20px;
+    }
 
-    .banner-in, .banner-in-diferente{
+    .about--content{
+        margin:20px;
         font-size:30px;
     }
-    article .container{
-        display:grid;
-        grid-template-columns:repeat(1 1fr);
-    }
-    .rights{
-        font-size:15px;
-    }
-}
-
-@media (max-width:375px){
-
-
-    .banner-in, .banner-in-diferente{
-        font-size:30px;
-    }
-    article .container{
-        display:grid;
-        grid-template-columns:repeat(1 1fr);
-    }
-    .rights{
-        font-size:15px;
-    }
-}
-@media (max-width:360px){
-
 }
