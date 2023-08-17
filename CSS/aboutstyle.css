@@ -197,3 +197,16 @@ footer{
         font-size:30px;
     }
 }
+
+@media(min-width:425px) and (max-width: 767px){
+    .about--title{
+        font-size:30px;
+        margin-top:20px;
+    }
+
+    .about--content h2,
+    .about--content p{
+        margin-left:10px;
+        margin-right:10px;
+    }
+}
