@@ -1,6 +1,7 @@
 # Site da Manu
 
 Este repositório contém o código-fonte de um site feito em homenagem à minha filha Manuela. O site é uma forma de compartilhar momentos especiais, interesses e informações sobre Manuela.
+https://lerocha34.github.io/manuela/
 
 ## Páginas
 
